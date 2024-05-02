@@ -25,8 +25,8 @@ const getData=()=> {
 }
 
   useEffect(() => {
-    getData()
-  }, []); 
+    getData();
+  }, [getData]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
